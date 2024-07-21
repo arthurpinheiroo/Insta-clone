@@ -1,0 +1,162 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-interface {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    padding-top:400px ;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    transform: translate(-30%, -55%);
+  }
+
+#login-input {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left:52% ;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    transform: translate(20);
+}
+
+#senha-input {
+    display: block;
+    position: absolute;
+    top: 36%;
+    left: 52%;
+    width: 250px;
+    height: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    transform: translate(45, 45);
+}
+
+.inputs {
+    width: 230;
+    size: 50px;
+}
+
+
+.button {
+   display: block;
+   position: absolute;
+   top: 42%;
+   left: 52%;
+    background-color: #48A6FA;
+    color: white;
+    height: 40px;
+    width: 257px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.Ou > h2 {
+    display: block;
+    position: absolute;
+    top: 48%;
+    left: 58%;
+    font-size: 14PX;
+    color: gray;
+}
+
+.Ou > a {
+display: block;
+position: absolute;
+top: 55%;
+left: 55%;
+text-decoration: none;
+color: #567EFA;
+transform: translate(-50, -50);
+width: 300PX;
+}
+
+.Esqueceu-a-Senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.Esqueceu-a-Senha > a {
+    text-decoration: none;
+}
+
+.Cadastre-se {
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 57%;
+    transform: translate(-52%, -55%);
+    font-size: 10px;
+    margin: 35px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 309Px;
+    
+}
+
+.Cadastre-se > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+width: 150px;
+display: block;
+position: absolute;
+top: 7%;
+left: 29%;
+
+
+}
+
+.img-2 > img {
+width: 700px;
+display: block;
+position: absolute;
+top: -25%;
+left: 63%;
+transform: translate(-130%);
+} 
+
+.Img-3 > img {
+    width: 745px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.Img-4 > img {
+   display: block;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+   width: 700px;
+} 
+
+
+
